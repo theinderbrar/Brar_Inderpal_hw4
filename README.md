@@ -1,5 +1,5 @@
 # Mini Cooper Application
-This dynamic website was created using vue components and Fetch API. The goal of the app was to display data that changes based on what car the user selects. The app handles data changes of text, images and video!
+This dynamic website is created using vue components and Fetch API. The goal of the app is to display data that changes based on what car the user selects. The app handles data changes of text, images and video!
 
 
 # Tools Used
