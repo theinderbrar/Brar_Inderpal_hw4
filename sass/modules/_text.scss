@@ -1,0 +1,69 @@
+.title{
+    font-size: 24px;
+    color: black;
+}
+
+.thumbnail-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+}
+
+.thumbnail-price{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin: 15px 0;
+    text-align: center;
+    color: red;
+}
+
+.modal-title{
+    font-size: 24px;
+    color: #fff;
+    // margin-top: 35px;
+    padding: 15px;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    background-color: #75040a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+.modal-price{
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: #fff;
+    font-size: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    background-color: red;
+    width: 200px;
+    animation: blink 1s linear infinite;
+}
+
+.modal-desc{
+    width: 450px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+.speed{
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.sticky_footer{
+    display: flex;
+    justify-content: center;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+    }

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Mini Cooper Vehicles</title>
+</head>
+<body>
+    <main id="app">
+        <header id="header">
+            <img src="images/1200px-MINI_logo.svg.png" id="miniLogo">
+            <h1 id="headline">Mini Cooper</h1>
+        </header>
+        <section id="selector">
+            <thumbnail v-on:showdata="swapInfo" v-for="item in miniData" :key="item.id" :piece="item"></thumbnail>
+        </section>
+        <electric v-on:showdata="swapInfo" v-for="item in electricData" :key="item.id" :piece="item"></electric>
+        <modal :piece="currentItem"></modal>
+    </main> 
+    <footer class="sticky_footer">
+        <h3>Copyright &copy; Inderpal Singh</h3>
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="js/main.js" type="module" defer></script>
+</body>
+</html>

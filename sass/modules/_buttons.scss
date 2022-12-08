@@ -1,0 +1,32 @@
+.learn-more{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom:20px ;
+    border-radius: 5px;
+
+}
+.learn-more:hover{
+    transform: scale(1.2);
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.close{
+    right: 0;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgba(0,0,0,0.8);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.toggle{
+    color: #75040a;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-bottom:20px ;
+
+}

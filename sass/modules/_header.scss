@@ -1,0 +1,19 @@
+#header{
+    display: flex;
+    justify-content: center;
+    background-color: white; 
+  position: sticky; 
+  top: 0;
+  text-align: center;
+}
+
+#miniLogo{
+    max-width: 15%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+#headline{
+    padding: 15px;
+    font-family: Rockwell;
+}
